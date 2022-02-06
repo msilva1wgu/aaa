@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+
+<category>
+    <pattern>Hello</pattern>
+    <template>Hello. If you will answer a few questions, I will recommend a career for you. <br/><br/>Which of the following interests you the most?
+    <button>
+        <text>Physical components</text>
+        <postback>Physical components</postback>
+    </button>    <button>
+        <text>Software</text>
+        <postback>Software</postback>
+    </button>
+</template>
+</category>
+
+<category><pattern>Hi</pattern><template><srai>HELLO</srai></template></category>
+
+
+
+
+
+<category>
+    <pattern>Physical components</pattern>
+    <template>I recommend a career in Hardware Engineering.</template>
+</category>
+<category>
+    <pattern>Software</pattern>
+    <template>Great. Which of the following would you prefer?
+    <button>
+        <text>Creating an experience</text>
+        <postback>Creating an experience</postback>
+    </button>    <button>
+        <text>Observing patterns</text>
+        <postback>Observing patterns</postback>
+    </button>    
+</template>
+</category>
+<category>
+    <pattern>Creating an experience</pattern>
+    <template>Great. Last question. Which would you prefer to create?
+
+    <button>
+        <text>Standalone applications</text>
+        <postback>Standalone applications</postback>
+    </button>    <button>
+        <text>Websites</text>
+        <postback>Websites</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>Standalone applications</pattern>
+    <template>I recommend a career in Software Development.</template>
+</category>
+<category>
+    <pattern>Websites</pattern>
+    <template>I recommend a career in Web Development.</template>
+</category>
+<category>
+    <pattern>Observing patterns</pattern>
+    <template>Great. Last question. Which of the following would you prefer?
+    
+    <button>
+        <text>Ingesting data and outputting reports</text>
+        <postback>Ingesting data and outputting reports</postback>
+    </button>    <button>
+        <text>Controlling access and connections</text>
+        <postback>Controlling access and connections</postback>
+    </button>
+    
+</template>
+</category>
+<category>
+    <pattern>Ingesting data and outputting reports</pattern>
+    <template>I recommend a career in Database Administration.</template>
+</category>
+<category>
+    <pattern>Controlling access and connections</pattern>
+    <template>I recommend a career in Network Administration.</template>
+</category>
+</aiml>
